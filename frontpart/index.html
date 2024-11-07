@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Astana Census</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Логотип Astana Census" class="logo">
+        <h1>Astana Census</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="participation.html">Участие</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Добро пожаловать!</h2>
+            <p>Собираем информацию о населении Астаны для улучшения жизни горожан.</p>
+        </section>
+        
+        <section>
+            <h2>Записи</h2>
+            <form id="record-form">
+                <input type="text" id="record-input" placeholder="Введите текст" required>
+                <button type="submit">Добавить запись</button>
+            </form>
+            <table id="record-table">
+                <thead>
+                    <tr>
+                        <th>Запись</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Записи будут добавлены сюда динамически -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Astana Census</p>
+        <p>Batyrkhan Adilbekov</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

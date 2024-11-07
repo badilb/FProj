@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Участие - Astana Census</title>
+</head>
+<body>
+    <header>
+        <h1>Astana Census</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="participation.html">Участие</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Участвуйте в переписи</h2>
+            <form id="participation-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Фамилия:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Возраст:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="gender">Пол:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                    <option value="other">Другой</option>
+                </select>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Astana Census</p>
+        <p>Batyrkhan Adilbekov</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Светлый фон для контента */
+    color: #333; /* Цвет текста */
+    background-image: url('images/background.jpg'); /* Укажите путь к вашему фоновому изображению */
+    background-size: cover; /* Заполнение всего экрана */
+    background-position: center; /* Центрирование изображения */
+}
+
+header {
+    background: rgba(0, 123, 255, 0.8); /* Полупрозрачный голубой цвет */
+    color: #fff;
+    padding: 20px 0; /* Увеличен отступ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для header */
+}
+
+.logo {
+    width: 120px; /* Размер логотипа */
+    height: auto;
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Увеличен отступ между элементами */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Жирный шрифт */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон для секций */
+    border-radius: 8px; /* Скругленные углы */
+    padding: 20px;
+    margin: 20px 0; /* Отступы сверху и снизу */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для секций */
+}
+
+h2 {
+    color: #007BFF; /* Цвет заголовков */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 123, 255, 0.8); /* Полупрозрачный голубой цвет */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    width: calc(100% - 120px); /* Уменьшена ширина для кнопки */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Плавный переход */
+}
+
+form input:focus {
+    border-color: #007BFF; /* Цвет границы при фокусе */
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 15px; /* Увеличены отступы */
+    background-color: #007BFF; /* Голубой цвет для кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Серый фон для заголовков таблицы */
+    color: #007BFF; /* Цвет заголовков таблицы */
+}
+
+td {
+    transition: background-color 0.3s; /* Плавный переход */
+}
+
+td:hover {
+    background-color: #f9f9f9; /* Цвет ячейки при наведении */
+}

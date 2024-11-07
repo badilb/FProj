@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres  # Замените на ваше имя пользователя
+      POSTGRES_PASSWORD: postgres # Замените на ваш пароль
+      POSTGRES_DB: ast_census  # Имя вашей базы данных
+    ports:
+      - "5482:5432"  # Сопоставление портов
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Сохранение данных
+
+volumes:
+  postgres_data:
